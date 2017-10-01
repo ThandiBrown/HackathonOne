@@ -11,12 +11,12 @@ function tabFunction() {
   var objectArray = ["Dirt", "Lemons", "Rainbows", "DangerousNails", "SomeonesSoul",
   "LittleChildren", "MethaneGas", "HairFollicles", "ToeNails", "SustainableEnergy",
   "Chapstick", "Dorthy", "Windex", "Mayonnaise","ABeeHive"];
-  var randomIndex = Math.floor(Math.random() * (names.length - 1));
-  var randomElement = names[randomIndex];
-  var random2Index = Math.floor(Math.random() * (action.length - 1));
-  var random2Element = action[random2Index];
-  var random3Index = Math.floor(Math.random() * (random.length - 1));
-  var random3Element = random[random3Index];
+  var randomIndex = Math.floor(Math.random() * (nameArray.length - 1));
+  var randomElement = nameArray[randomIndex];
+  var random2Index = Math.floor(Math.random() * (verbArray.length - 1));
+  var random2Element = verbArray[random2Index];
+  var random3Index = Math.floor(Math.random() * (objectArray.length - 1));
+  var random3Element = objectArray[random3Index];
   document.getElementById("go").innerHTML = randomElement + "_" + random2Element + "_" + random3Element;
 
 }
@@ -27,17 +27,17 @@ var  names = ["Ricky_ ","Chris_", "Omar_", "Devon_", "Evan_", " Filne_",
 "BillClinton"];
 
 var action = ["slapped", "punched", "kissed", "stabbed", "harassed", "challenged",
-"trapped","fought","smacked","killed","yelled_at","cherished", " cleaned ","headbutted", " kneed ",""];
+"trapped","fought","smacked","killed","yelled_at","cherished", " cleaned ","peeded_on", " kneed ",""];
 
 var random = ["_a_cheecks", "_a_butt", "_an_elephant", "_a_chicken",
  "_the_bottom_of_his_shoe","_a_snicker"];
 
- var randomIndex = Math.floor(Math.random() * (names.length - 1));
- var randomElement = names[randomIndex];
- var random2Index = Math.floor(Math.random() * (action.length - 1));
- var random2Element = action[random2Index];
- var random3Index = Math.floor(Math.random() * (random.length - 1));
- var random3Element = random[random3Index];
+var randomIndex = Math.floor(Math.random() * (names.length - 1));
+var randomElement = names[randomIndex];
+var random2Index = Math.floor(Math.random() * (action.length - 1));
+var random2Element = action[random2Index];
+var random3Index = Math.floor(Math.random() * (random.length - 1));
+var random3Element = random[random3Index];
 document.getElementById("go").innerHTML = randomElement + "_" + random2Element + "_" + random3Element;
 
 }
@@ -54,12 +54,12 @@ function derFunction(){
                  "Spoink", "Snorlax", "Slowbro", "Scatterbug",
                  "Sandslash", "Rayquaza", "Raticate", "Raichu","Plusle",
                  "Onix"];
-  var randomIndex = Math.floor(Math.random() * (names.length - 1));
-  var randomElement = names[randomIndex];
-  var random2Index = Math.floor(Math.random() * (action.length - 1));
-  var random2Element = action[random2Index];
-  var random3Index = Math.floor(Math.random() * (random.length - 1));
-  var random3Element = random[random3Index];
+ var randomIndex = Math.floor(Math.random() * (pokemonName1.length- 1));
+ var randomElement = pokemonName1[randomIndex];
+ var random2Index = Math.floor(Math.random() * (actionWord.length- 1));
+ var random2Element = actionWord[random2Index];
+ var random3Index = Math.floor(Math.random() * (pokemonName2.length- 1));
+ var random3Element = pokemonName2[random3Index];
  document.getElementById("go").innerHTML = randomElement + "_" + random2Element + "_" + random3Element;
 
 }
