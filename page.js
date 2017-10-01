@@ -22,9 +22,9 @@ function tabFunction() {
 }
 
 function oluFunction(){
-var  names = ["Ricky_ ","Chris_", "Omar_", "Devon_", "Evan_",
-" Filne_","Drake_","Luchi_","Stevie_","Batman_",
-"Clark_Kent_", "Adele", "Trump", "Obama","BillClinton"];
+var  names = ["Ricky","Chris", "Omar", "Devon", "Evan",
+" Filne","Drake","Luchi","Stevie","Batman",
+"Clark_Kent", "Adele", "Trump", "Obama","BillClinton"];
 
 var action = ["slapped", "punched", "kissed", "stabbed", "harassed",
 "challenged","trapped","fought","smacked","killed",
