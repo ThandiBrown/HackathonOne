@@ -40,7 +40,7 @@ var random2Index = Math.floor(Math.random() * (action.length - 1));
 var random2Element = action[random2Index];
 var random3Index = Math.floor(Math.random() * (random.length - 1));
 var random3Element = random[random3Index];
-document.getElementById("go").innerHTML = randomElement + "_" + random2Element + "_" + random3Element;
+document.getElementById("go").innerHTML = randomElement + "_" + random2Element + random3Element;
 
 }
 
