@@ -22,15 +22,17 @@ function tabFunction() {
 }
 
 function oluFunction(){
-var  names = ["Ricky_ ","Chris_", "Omar_", "Devon_", "Evan_", " Filne_",
-"Drake_","Luchi_","Stevie_","Batman_","Clark_Kent_", "Adele", "Trump", "Obama",
-"BillClinton"];
+var  names = ["Ricky_ ","Chris_", "Omar_", "Devon_", "Evan_",
+" Filne_","Drake_","Luchi_","Stevie_","Batman_",
+"Clark_Kent_", "Adele", "Trump", "Obama","BillClinton"];
 
-var action = ["slapped", "punched", "kissed", "stabbed", "harassed", "challenged",
-"trapped","fought","smacked","killed","yelled_at","cherished", " cleaned ","peeded_on", " kneed ",""];
+var action = ["slapped", "punched", "kissed", "stabbed", "harassed",
+"challenged","trapped","fought","smacked","killed",
+"yelled_at","cherished", " cleaned ", "headbutted", " kneed ","choked"];
 
-var random = ["_a_cheecks", "_a_butt", "_an_elephant", "_a_chicken",
- "_the_bottom_of_his_shoe","_a_snicker"];
+var random = ["_a_cheecks", "_a_butt", "_an_elephant", "_a_chicken", "_the_bottom_of_his_shoe",
+"_a_snicker", "_a_water_bottle", "_a_mirror", "_a_fidget_spinner", "_grasshopper",
+"_a_professor", "_uno_cards", "_eyebrow", "_a_cashier", "_stop_sign"];
 
 var randomIndex = Math.floor(Math.random() * (names.length - 1));
 var randomElement = names[randomIndex];
