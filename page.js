@@ -24,7 +24,7 @@ function tabFunction() {
 function oluFunction(){
 var  names = ["Ricky","Chris", "Omar", "Devon", "Evan",
 " Filne","Drake","Luchi","Stevie","Batman",
-"Clark_Kent", "Adele", "Trump", "Obama","BillClinton"];
+"Clark_Kent", "Adele", "Justin", "Miley_Cyrus","BillClinton"];
 
 var action = ["slapped", "punched", "kissed", "stabbed", "harassed",
 "challenged","trapped","fought","smacked","killed",
@@ -32,7 +32,7 @@ var action = ["slapped", "punched", "kissed", "stabbed", "harassed",
 
 var random = ["_a_cheecks", "_a_butt", "_an_elephant", "_a_chicken", "_the_bottom_of_his_shoe",
 "_a_snicker", "_a_water_bottle", "_a_mirror", "_a_fidget_spinner", "_grasshopper",
-"_a_professor", "_uno_cards", "_eyebrow", "_a_cashier", "_stop_sign"];
+"_a_professor", "_uno_cards", "_an_eyebrow", "_a_cashier", "_stop_sign"];
 
 var randomIndex = Math.floor(Math.random() * (names.length - 1));
 var randomElement = names[randomIndex];
